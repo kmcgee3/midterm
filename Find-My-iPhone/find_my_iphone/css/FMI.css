@@ -1,0 +1,97 @@
+#bigbox{
+    font-family:Arial;
+    width: 365px;
+    height: 600px;
+    background-color: white;
+    border: solid .25px #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content:center;
+    align-items: center;
+    
+    
+}
+.values{
+    text-align: left;
+    border: 1px solid grey;
+    border-radius:10px;
+    width: 200px;
+    width: 250px;
+    height: 75px;
+
+}
+
+.appleid{
+    text-align: left;
+    padding-top:15px;
+    padding-left:2px;
+    padding-bottom:5px;
+    align-content:center;
+    color: gray;
+}
+.fmi{
+    position: center;
+    right: -50px;
+    width: 600px;
+    padding: 30px;  
+}
+input {
+    background-color: transparent;
+    border: 0px solid;
+    height: 20px;
+    width: 160px;
+    color:black;
+}
+.findphone{
+    font-family: inherit;
+    text-align: center;
+    color:black;
+    font-size:30px;
+    vertical-align: center;
+    display: inline-block;
+    width: 225px;
+    padding-bottom: 30px;   
+}
+.password{
+    text-align: left;
+    padding-bottom:10px;
+    padding-left:2px;
+    border color: transparent;
+    color: gray;
+}
+.signin{
+    font-size: 20px;
+    color:green;
+    font-weight:none;
+    text-decoration:none;
+    padding-bottom: 20px;
+}
+.forgot{
+    font-size: 15px;
+    text-align:middle;
+    color:green;
+    padding-bottom: 20px;
+    text-decoration: none;
+}
+.support{
+    text-align: middle;
+    color:green;
+    text-decoration: none;
+}
+
+.bodyformat{
+    display: flex;
+     flex-direction: column;
+    justify-content: center;
+    align-content:center;
+    align-items: center;
+}
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
+}
