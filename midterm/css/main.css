@@ -1,0 +1,81 @@
+/*main page background*/
+body{
+    background-color: #cccccc;
+}
+/*card design/format*/
+.card{
+    background: white;
+    text-decoration: none;
+    color: #444;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    min-height: 50%;   
+}
+/*individual card designs/format, also using flex grid*/
+#boilerplate {
+    grid-column-end: 1;
+    grid-row: 1;
+    transition: box-shadow .3s;
+    position: relative;
+    text-align: center;
+    font-family:Arial;
+    border: solid 5px white; 
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBLTkv672TqoAIDq02OxgN5JkmqCB_CZJABhiQyPV3iFAhrNLu);
+    background-size: 100%;
+}
+#fridge{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row: 1;
+    transition: box-shadow .3s;
+    position: relative;
+    text-align: center;
+    font-family:Arial;
+    border: solid 5px white; 
+    background-image: url(https://ak8.picdn.net/shutterstock/videos/11205278/thumb/1.jpg);
+    background-size: 100%;
+}
+
+#fmi{
+    grid-column-end: 2;
+    grid-row: 2;
+    transition: box-shadow .3s;
+    text-align: center;
+    position: relative;
+    border: 5px solid white;
+    font-family:Arial;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-3_SR_vXVk0MlAzLn6KomqqAVceTTESzvs9VxS1bzj4MBUezD) ;
+    background-size: 100%;
+}
+#js{
+    grid-column-end: 1;
+    grid-row: 2;
+    transition: box-shadow .3s;
+    text-align: center;
+    text-decoration-color: aliceblue;
+    position: relative;
+    border: 5px solid white;
+    font-family:Arial;
+    background-image: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/J9H9WF0/night-sky-full-of-stars-animation-made-of-sparkly-light-dot-particles-moving-across-a-teal-blue-green-gradient-background_bilq0soa_thumbnail-small01.jpg );
+    background-size: 100%;
+}
+/* Links */
+a:link {
+color: azure
+}
+
+/* visited link */
+a:visited {
+color: black
+}
+
+/* mouse over link */
+a:hover {
+color: hotpink;
+}
+
+/* selected link */
+a:active {
+color: darkmagenta
+}
